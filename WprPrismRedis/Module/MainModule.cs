@@ -20,6 +20,7 @@ namespace WprPrismRedis.Module
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
+
         }
     }
 }
