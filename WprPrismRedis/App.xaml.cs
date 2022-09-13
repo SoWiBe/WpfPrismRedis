@@ -8,6 +8,8 @@ using System.Windows;
 using Prism.DryIoc;
 using Prism.Ioc;
 using Prism.Modularity;
+using WprPrismRedis.Module;
+using WprPrismRedis.Views;
 
 namespace WprPrismRedis
 {
@@ -24,7 +26,7 @@ namespace WprPrismRedis
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            //containerRegistry.RegisterForNavigation<TabView>();
+            containerRegistry.RegisterForNavigation<TabView>();
         }
 
         protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
