@@ -17,7 +17,7 @@ namespace WprPrismRedis.Views
     /// <summary>
     /// Логика взаимодействия для TabView.xaml
     /// </summary>
-    public partial class TabView : Window
+    public partial class TabView : UserControl
     {
         public TabView()
         {

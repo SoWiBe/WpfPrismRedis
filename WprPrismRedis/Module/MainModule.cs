@@ -20,7 +20,6 @@ namespace WprPrismRedis.Module
 
         public void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            throw new NotImplementedException();
         }
     }
 }
